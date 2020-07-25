@@ -212,7 +212,8 @@ $Project "Client (Momentum)"
             $File   "momentum\client_events.h"
             $File   "momentum\client_events.cpp"
 
-
+            $File   "$SRCDIR\game\shared\momentum\mom_system_tricksurf.h"
+            $File   "$SRCDIR\game\shared\momentum\mom_system_tricksurf.cpp"
 
             $Folder "Weapons"
             {

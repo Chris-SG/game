@@ -145,4 +145,8 @@
     {
         "speed" "float"
     }
+    "trick_data_loaded"
+    {
+        
+    }
 }

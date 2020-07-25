@@ -82,12 +82,15 @@ public:
     DECLARE_CLIENTCLASS();
 
     C_TriggerTrickZone();
+    void Spawn() override;
 
     bool ShouldDrawOutline() override;
     bool GetOutlineColor() override;
 
     CNetworkVar(int, m_iID);
     CNetworkString(m_szZoneName, 32);
+
+    CNetworkVar(int, m_iDrawState);
 };
 
 class C_TriggerSlide : public C_BaseMomZoneTrigger

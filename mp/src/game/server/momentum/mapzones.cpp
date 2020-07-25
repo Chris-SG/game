@@ -14,7 +14,7 @@ CON_COMMAND_F(mom_zone_generate, "Generates the .zon file for map zones.", FCVAR
 {
     if (g_pGameModeSystem->GameModeIs(GAMEMODE_TRICKSURF))
     {
-        g_pTricksurfSystem->SaveTrickDataToFile();
+        g_pTrickSystem->SaveTrickDataToFile();
     }
     else
     {
